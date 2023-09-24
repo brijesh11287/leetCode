@@ -1,6 +1,11 @@
-const str = ["flower", "flow", "flight"];
-const longestPrefix = [];
-for (let i = 0; i < str[0].length; i++) {
-  // console.log(str[0][i]);
-  console.log(str[i] === str[0][i]);
+const paranthesis = ["()", "[]", "{}"];
+let str = "()";
+for (let i = 0; i < str.length; i++) {
+  console.log(str[i] + str[i + 1]);
+  i++;
+  // if (paranthesis.includes(str)) {
+  //   console.log(true);
+  // } else {
+  //   console.log(false);
+  // }
 }
