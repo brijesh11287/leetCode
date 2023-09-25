@@ -1,5 +1,4 @@
 // balanced parenthethesis
-
 const paranthesis = ["()", "[]", "{}"];
 let str = "{[()]}";
 const arr = [];
